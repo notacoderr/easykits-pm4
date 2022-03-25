@@ -1,0 +1,17 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AndreasHGK/EasyKits
+branches:
+  - master
+projects:
+  EasyKits:
+    path: ""
+    libs:
+      - src: jojoe77777/FormAPI/libFormAPI
+        version: ^1.3.0
+        branch: master
+      - src: ifera-mc/UpdateNotifier/UpdateNotifier
+        version: ^2.1.0
+        branch: master
+      - src: muqsit/invmenu/InvMenu
+        version: ^2.1.0
+        branch: master
+...
